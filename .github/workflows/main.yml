@@ -4,7 +4,7 @@
   uses: PortSwigger/dastardly-github-action@v1.0.0
   with:
     # The full url (including scheme) of the site to scan
-    target-url: https://github.com/Testbase7780/juiceshop-test
+    target-url: https://juice-shop.herokuapp.com/
     # The filename used for the scan report. This filepath relates to the dastardly container, and will exist in the github workspace (/github/workspace)
     output-filename: # optional, default is dastardly-report.xml
           
